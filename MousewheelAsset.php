@@ -5,7 +5,7 @@
  * Date: 07.05.2015
  * Time: 13:17
  */
-namespace newerton\fancybox;
+namespace saritasa\fancybox;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ class MousewheelAsset extends AssetBundle
      * Unique value to set an empty asset via Yii AssetManager configuration.
      */
     const EMPTY_ASSET = 'N0/@$$3T$';
-    public $sourcePath = '@bower/jquery-mousewheel';
+//    public $sourcePath = '@bower/jquery-mousewheel';
 
     public $js = self::EMPTY_ASSET;
 
@@ -23,7 +23,7 @@ class MousewheelAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'newerton\fancybox\FancyBoxAsset',
+        'saritasa\fancybox\FancyBoxAsset',
     ];
 
     public function init()

@@ -8,7 +8,7 @@
  * @version 1.0.0
  */
 
-namespace newerton\fancybox;
+namespace saritasa\fancybox;
 
 use yii\base\Widget;
 use yii\helpers\Json;

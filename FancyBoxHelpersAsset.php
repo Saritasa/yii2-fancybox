@@ -5,7 +5,7 @@
  * Date: 07.05.2015
  * Time: 13:17
  */
-namespace newerton\fancybox;
+namespace saritasa\fancybox;
 
 use yii\web\AssetBundle;
 
@@ -20,13 +20,13 @@ class FancyBoxHelpersAsset extends AssetBundle
     ];
 
     public $css = [
-        'source/helpers/jquery.fancybox-buttons.css',
-        'source/helpers/jquery.fancybox-thumbs.css'
+        ['source/helpers/jquery.fancybox-buttons.css','media'=>'screen'],
+        ['source/helpers/jquery.fancybox-thumbs.css','media'=>'screen']
     ];
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'newerton\fancybox\FancyBoxAsset',
+        'saritasa\fancybox\FancyBoxAsset',
     ];
 
 }

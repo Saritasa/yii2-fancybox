@@ -1,5 +1,5 @@
 {
-    "name": "newerton/yii2-fancybox",
+    "name": "saritasa/yii2-fancybox",
     "description": "fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages.",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "fancyapps", "fancybox"],
@@ -11,14 +11,14 @@
         }
     ],
     "require": {
-	"php": ">=5.4.0",
-	"yiisoft/yii2": "*",
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
         "bower-asset/fancybox": "~2.1.5",
         "bower-asset/jquery-mousewheel": ">=3.1.13"
     },
     "autoload": {
         "psr-4": {
-            "newerton\\fancybox\\": ""
+            "saritasa\\fancybox\\": ""
         }
     }
 }

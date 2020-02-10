@@ -13,13 +13,13 @@ Either run
 
 ```
 php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
-php composer.phar require --prefer-dist newerton/yii2-fancybox "dev-master"
+php composer.phar require --prefer-dist saritasa/yii2-fancybox "dev-master"
 ```
 
 or add
 
 ```
-"newerton/yii2-fancybox": "dev-master"
+"saritasa/yii2-fancybox": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -32,7 +32,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-echo newerton\fancybox\FancyBox::widget([
+echo saritasa\fancybox\FancyBox::widget([
     'target' => 'a[rel=fancybox]',
     'helpers' => true,
     'mouse' => true,
