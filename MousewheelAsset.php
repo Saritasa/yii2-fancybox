@@ -15,7 +15,7 @@ class MousewheelAsset extends AssetBundle
      * Unique value to set an empty asset via Yii AssetManager configuration.
      */
     const EMPTY_ASSET = 'N0/@$$3T$';
-//    public $sourcePath = '@bower/jquery-mousewheel';
+    public $sourcePath = '@vendor/bower-asset/jquery-mousewheel';
 
     public $js = self::EMPTY_ASSET;
 
